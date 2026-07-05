@@ -32,3 +32,7 @@ This note captures the small model-training slice of the project.
 ## Result interpretation
 - The test metrics show a modest but consistent gain for XGBoost over Random Forest.
 - The final model choice matches the forecast script used later in the project.
+
+## Selection rationale
+- XGBoost handled nonlinear patterns in daily demand better than the baseline forest.
+- The lower MAE and RMSE made it the stronger choice for the forecast pipeline.
