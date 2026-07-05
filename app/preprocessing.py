@@ -7,6 +7,7 @@ import pandas as pd
 
 from app.constants import ATC_COLUMNS, TARGET_COLUMN
 
+# Data engine parsing layout to shape incoming database documents into matrices.
 
 def records_to_dataframe(records: List[dict]) -> pd.DataFrame:
     """Convert API/DB records into a sorted daily dataframe."""
