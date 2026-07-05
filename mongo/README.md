@@ -16,6 +16,10 @@ Each document stores a **rich daily snapshot** of all ATC category sales — fle
 | `created_at` | datetime | Insert timestamp |
 | `updated_at` | datetime | Last update (optional) |
 
+### Schema Constraints
+- `record_id` must follow the exact strict format configuration: `YYYY-MM-DD`.
+- `total_demand` must accept only non-negative floating-point numerical entries.
+
 ### Indexes
 
 - `{ sale_date: 1 }` — date-range queries
