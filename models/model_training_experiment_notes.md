@@ -40,3 +40,7 @@ This note captures the small model-training slice of the project.
 ## Limitations
 - The model still depends on historical sales stability.
 - Sudden shocks, stockouts, or policy changes could reduce forecast accuracy.
+
+## Next step
+- Re-run the experiments after any new data refresh.
+- Compare the updated scores against this baseline before replacing the model.
