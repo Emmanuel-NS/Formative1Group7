@@ -16,6 +16,10 @@ This note captures the small model-training slice of the project.
 - Chronological split was used to avoid leakage.
 - TimeSeriesSplit was used during tuning so each fold respected time order.
 
+## Tuning highlights
+- Random Forest search focused on `n_estimators`, `max_depth`, and `min_samples_leaf`.
+- XGBoost search focused on `learning_rate`, `max_depth`, `n_estimators`, and `subsample`.
+
 ## Quick takeaway
 - XGBoost performed slightly better and became the selected model.
 - Lagged demand, moving averages, and related category signals were the most useful features.
