@@ -32,7 +32,7 @@ def load_csv(path: Path) -> pd.DataFrame:
         df["Date"] = pd.to_datetime(df_raw[date_col], errors="coerce")
     return df.sort_values("Date").reset_index(drop=True)
 
-
+# Utility parser to separate raw SQL buffer arrays into isolated transactional strings.
 def _sql_statements(sql: str) -> list[str]:
     """Split schema file into executable statements, skipping comment-only lines."""
     statements = []
