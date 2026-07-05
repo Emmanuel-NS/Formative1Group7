@@ -36,3 +36,7 @@ This note captures the small model-training slice of the project.
 ## Selection rationale
 - XGBoost handled nonlinear patterns in daily demand better than the baseline forest.
 - The lower MAE and RMSE made it the stronger choice for the forecast pipeline.
+
+## Limitations
+- The model still depends on historical sales stability.
+- Sudden shocks, stockouts, or policy changes could reduce forecast accuracy.
