@@ -23,3 +23,7 @@ This note captures the small model-training slice of the project.
 ## Quick takeaway
 - XGBoost performed slightly better and became the selected model.
 - Lagged demand, moving averages, and related category signals were the most useful features.
+
+## Result interpretation
+- The test metrics show a modest but consistent gain for XGBoost over Random Forest.
+- The final model choice matches the forecast script used later in the project.
