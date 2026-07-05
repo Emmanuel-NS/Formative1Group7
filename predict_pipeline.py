@@ -15,6 +15,9 @@ import joblib
 import pandas as pd
 import requests
 
+# Force resolve project root to allow seamless nested module imports 
+# regardless of where the terminal execution context is triggered.
+
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
 
