@@ -39,7 +39,7 @@ Formative1_GRP7/
 ### 1. Clone and install
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Emmanuel-NS/Formative1Group7.git
 cd Formative1_GRP7
 python -m venv .venv
 .venv\Scripts\activate        # Windows
