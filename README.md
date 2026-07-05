@@ -58,6 +58,11 @@ copy .env.example .env
 - Put `salesdaily.csv` in `data/`
 - Put `pharma_demand_model.pkl` in the project root (after running Colab)
 
+#### Verification Check
+You can confirm the files are positioned correctly by listing the directories:
+- Run `ls data/` to verify `salesdaily.csv` is present.
+- Run `ls` at the root directory to confirm `pharma_demand_model.pkl` is detected.
+
 ### 4. Initialize databases
 
 ```bash
