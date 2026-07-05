@@ -1,10 +1,8 @@
-"""PostgreSQL repository for daily pharma sales records."""
+"""PostgreSQL repository for daily pharma sales records ."""
 
 from datetime import date
 from typing import List, Optional
-
 from sqlalchemy import text
-
 from app.constants import ATC_COLUMNS
 from app.database import postgres_session
 from app.schemas import RecordCreate, RecordResponse, RecordUpdate
