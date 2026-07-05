@@ -1,3 +1,5 @@
+# System alignment map configured to match the training notebook parameters.
+
 """Shared constants aligned with the Colab notebook."""
 
 ATC_COLUMNS = ["M01AB", "M01AE", "N02BA", "N02BE", "N05B", "N05C", "R03", "R06"]
